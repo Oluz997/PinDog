@@ -1,0 +1,191 @@
+body {
+    font-family: "Monsterrat", sans-serif;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Headings Section */
+
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: rgb(6, 190, 190);
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Feature Section */
+
+#features {
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+.icon {
+    color: rgb(6, 205, 219);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(6, 190, 190);
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: rgb(6, 205, 219);
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#press {
+    background-color: rgb(6, 205, 219);
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 2% 3%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+.footer-logo {
+    margin: 20px 10px;
+}
+
+#footer .container-fluid {
+    padding: 3% 5%;
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        width: 100%;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .testimonial-image {
+        width: 30%;
+    }
+
+    .press-logo {
+        width: 30%;
+    }
+
+    .pricing-column {
+        padding: 2% 0;
+    }
+    
+}
